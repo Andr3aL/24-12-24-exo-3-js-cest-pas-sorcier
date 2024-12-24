@@ -37,4 +37,33 @@ function myFunction() {
      
  });
 
+//  let element = document.getElementById("monLien");
+//  element.setAttribute("href", "https://example.com");
+//  element.setAttribute("target", "_blank");
+ 
+// function btnClick() {
+//     // Sélectionner le bouton
+//     let button = document.getElementById("abo");
+    
+//     // Modifier le texte du bouton
+//     button.textContent = "Abonné";
 
+//     // Modifier les classes du bouton pour changer son style
+//     button.classList.remove("bg-dark");
+//     button.classList.add("bg-success");
+// }
+
+// function btnClick() {
+//     let button = document.getElementById("abo");
+//     button.textContent = "Abonné";
+//     button.classList.remove("bg-dark");
+//     button.classList.add("bg-success");
+// }
+
+function btnClick() {
+    let button = document.getElementById("abo");
+    button.classList.toggle("bg-dark");
+    button.classList.toggle("bg-success");
+
+    button.textContent = (button.textContent === "Abonnez-vous") ? "Abonné" : "Abonnez-vous";
+}
