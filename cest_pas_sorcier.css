@@ -24,6 +24,23 @@ ul.nav {
     top: 0;
 }
 
+/* -------------------------------------- */
+
+.progress {
+    animation-timeline: scroll();
+  }
+
+@keyframes scaleProgress {
+    0% {
+      transform: scaleX(0);
+    }
+    100% {
+      transform: scaleX(1);
+    }
+}
+    
+/* -------------------------------------- */
+
 li a {
     color: turquoise !important; 
     /* text-decoration: none; */
