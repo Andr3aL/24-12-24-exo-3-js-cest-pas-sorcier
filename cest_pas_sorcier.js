@@ -67,3 +67,6 @@ function btnClick() {
 
     button.textContent = (button.textContent === "Abonnez-vous") ? "Abonné" : "Abonnez-vous";
 }
+
+
+
